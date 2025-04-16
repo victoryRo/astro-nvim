@@ -1,0 +1,13 @@
+Git config keys
+
+# github account
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_github
+
+# GitLab account
+Host gitlab.com
+HostName gitlab.com 
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_gitlab
